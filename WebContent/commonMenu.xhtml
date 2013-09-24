@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+<body>
+
+	<ui:composition>
+
+		<br />
+
+		<p:menubar autoDisplay="false" style="width:90%">
+
+			<p:menuitem value="Página Inicial " url="/" />
+
+			<p:submenu label="Gráficos ">
+				<p:menuitem value="Temperatura" url="/pfChartsTest.xhtml" />
+				<p:menuitem value="pH" url="/pfChartsTest.xhtml" />
+			</p:submenu>
+
+			<p:menuitem value="Mapas " url="/mapas.xhtml" />
+
+			<p:submenu label="Ajuda">
+				<p:menuitem value="Sobre" url="#" />
+				<p:menuitem value="Quem somos" url="#" />
+			</p:submenu>
+
+			<!-- 
+			<f:facet name="options">
+				<p:commandButton type="button" value="Logout" icon="ui-icon-extlink" />
+			</f:facet>
+ -->
+		</p:menubar>
+
+
+		<br />
+
+	</ui:composition>
+
+</body>
+</html>

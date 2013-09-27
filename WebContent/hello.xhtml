@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Teste</title>
+</h:head>
+<h:body>
+
+	<div style="float: left; position: relative; left: 50%">
+
+		<p:panel header="Login"
+			style="float: left; position: relative; left: -50%">
+			<form method='post' action='j_security_check'>
+				<table border="0">
+					<tr>
+						<td>Usuário:</td>
+						<td><input type='text' name='j_username' /></td>
+					</tr>
+					<tr>
+						<td>Senha:</td>
+						<td><input type='password' name='j_password' /></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Entrar" /></td>
+					</tr>
+				</table>
+			</form>
+
+		</p:panel>
+
+		<div style="clear: left;" />
+	</div>
+
+
+
+</h:body>
+
+</html>
